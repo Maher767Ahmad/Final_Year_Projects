@@ -1,0 +1,84 @@
+﻿Launching lib\main.dart on 2409BRN2CA in debug mode...
+Running Gradle task 'assembleDebug'...                          
+flutter : 
+At line:1 char:1
++ flutter run 2>&1 | 
+Out-File -FilePath 
+build_error.txt 
+-Encoding utf8
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (:String   
+ ) [], RemoteExce    
+ption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+A problem occurred 
+configuring project '
+:flutter_filereader'.
+> Could not create 
+an instance of type c
+om.android.build.api.
+variant.impl.LibraryV
+ariantBuilderImpl.
+   > Namespace not 
+specified. Specify a 
+namespace in the 
+module's build file: 
+C:\Users\Mg\AppData\L
+ocal\Pub\Cache\hosted
+\pub.dev\flutter_file
+reader-3.0.0\android\
+build.gradle. See htt
+ps://d.android.com/r/
+tools/upgrade-assista
+nt/set-namespace for 
+information about 
+setting the 
+namespace.
+
+     If you've 
+specified the 
+package attribute in 
+the source 
+AndroidManifest.xml, 
+you can use the AGP 
+Upgrade Assistant to 
+migrate to the 
+namespace value in 
+the build file. 
+Refer to https://d.an
+droid.com/r/tools/upg
+rade-assistant/agp-up
+grade-assistant for 
+general information 
+about using the AGP 
+Upgrade Assistant.
+
+* Try:
+> Run with 
+--stacktrace option 
+to get the stack 
+trace.
+> Run with --info or 
+--debug option to 
+get more log output.
+> Run with --scan to 
+get full insights.
+> Get more help at ht
+tps://help.gradle.org
+.
+
+BUILD FAILED in 2s
+Running Gradle task 'assembleDebug'...                           2,808ms
+Error: Gradle task 
+assembleDebug failed 
+with exit code 1

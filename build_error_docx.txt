@@ -1,0 +1,188 @@
+﻿Launching lib\main.dart on 2409BRN2CA in debug mode...
+Running Gradle task 'assembleDebug'...                          
+flutter : warning: 
+[options] source 
+value 8 is obsolete 
+and will be removed 
+in a future release
+At line:1 char:1
++ flutter run 2>&1 | 
+Out-File -FilePath 
+build_error_docx.txt 
+-Encoding  ...
++ ~~~~~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (warning   
+ : [optio... futu    
+re release:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+warning: [options] 
+target value 8 is 
+obsolete and will be 
+removed in a future 
+release
+warning: [options] 
+To suppress warnings 
+about obsolete 
+options, use 
+-Xlint:-options.
+D:\digital_library\lo
+cal_packages\flutter_
+filereader\android\sr
+c\main\java\com\webvi
+ew\filereader\Flutter
+FileReaderPlugin.java
+:26: error: cannot 
+find symbol
+import io.flutter.plu
+gin.common.PluginRegi
+stry.Registrar;
+                     
+                     
+    ^
+  symbol:   class 
+Registrar
+  location: 
+interface 
+PluginRegistry
+D:\digital_library\lo
+cal_packages\flutter_
+filereader\android\sr
+c\main\java\com\webvi
+ew\filereader\Flutter
+FileReaderPlugin.java
+:84: error: cannot 
+find symbol
+    public static 
+void registerWith(Reg
+istrar registrar) {
+                     
+               ^
+  symbol:   class 
+Registrar
+  location: class Flu
+tterFileReaderPlugin
+Note: Some input 
+files use or 
+override a 
+deprecated API.
+Note: Recompile with 
+-Xlint:deprecation 
+for details.
+Note: D:\digital_libr
+ary\local_packages\fl
+utter_filereader\andr
+oid\src\main\java\com
+\webview\filereader\X
+5FileReaderFactory.ja
+va uses unchecked or 
+unsafe operations.
+Note: Recompile with 
+-Xlint:unchecked for 
+details.
+2 errors
+3 warnings
+
+FAILURE: Build 
+failed with an 
+exception.
+
+* What went wrong:
+Execution failed for 
+task ':flutter_filere
+ader:compileDebugJava
+WithJavac'.
+> Compilation 
+failed; see the 
+compiler output 
+below.
+  warning: [options] 
+To suppress warnings 
+about obsolete 
+options, use -Xlint:-
+options.Note: 
+Recompile with 
+-Xlint:deprecation 
+for details.Note: 
+Recompile with 
+-Xlint:unchecked for 
+details.D:\digital_li
+brary\local_packages\
+flutter_filereader\an
+droid\src\main\java\c
+om\webview\filereader
+\FlutterFileReaderPlu
+gin.java:26: error: 
+cannot find symbol
+  import io.flutter.p
+lugin.common.PluginRe
+gistry.Registrar;
+                     
+                     
+      ^
+    symbol:   class 
+Registrar
+    location: 
+interface 
+PluginRegistry
+  D:\digital_library\
+local_packages\flutte
+r_filereader\android\
+src\main\java\com\web
+view\filereader\Flutt
+erFileReaderPlugin.ja
+va:84: error: cannot 
+find symbol
+      public static 
+void registerWith(Reg
+istrar registrar) {
+                     
+                 ^
+    symbol:   class 
+Registrar
+    location: class F
+lutterFileReaderPlugi
+nNote: D:\digital_lib
+rary\local_packages\f
+lutter_filereader\and
+roid\src\main\java\co
+m\webview\filereader\
+X5FileReaderFactory.j
+ava uses unchecked 
+or unsafe 
+operations.warning: 
+[options] source 
+value 8 is obsolete 
+and will be removed 
+in a future 
+releaseNote: Some 
+input files use or 
+override a 
+deprecated 
+API.warning: 
+[options] target 
+value 8 is obsolete 
+and will be removed 
+in a future release
+  2 errors
+  3 warnings
+
+* Try:
+> Check your code 
+and dependencies to 
+fix the compilation 
+error(s)
+> Run with --scan to 
+get full insights.
+
+BUILD FAILED in 15s
+Running Gradle task 'assembleDebug'...                             15.7s
+Error: Gradle task 
+assembleDebug failed 
+with exit code 1
